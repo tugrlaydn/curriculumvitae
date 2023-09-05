@@ -1,0 +1,77 @@
+\documentclass[10pt]{article}\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage{titling}
+\definecolor{vividauburn}{rgb}{0.58, 0.15, 0.14}
+
+\begin{document}
+\author{Tugrul Aydin}
+\titleformat{\section}
+{\large}
+{}
+{0em}
+{\textcolor{vividauburn}}[\color{vividauburn}\titlerule]
+
+\renewcommand{\maketitle}{
+\begin{flushleft}
+{\Huge\textcolor{vividauburn}\theauthor}
+\end{flushleft}
+\begin{flushleft}
+{\normalfont\normalsize{}} 
+\href{https://www.linkedin.com/in/tugrlaydn/}{linkedin.com/in/tugrlaydn/} $\cdot$ \href{https://github.com/tugrlaydn}{github.com/tugrlaydn} $\cdot$ \href{mailto:tugrl.aydn@gmail.com}{tugrl.aydn@gmail.com}
+\end{flushleft}}
+
+\maketitle
+\vspace{.3cm}
+\section*{Education}
+
+\textbf{Middle East Technical University} \hfill Ankara, TR\\
+\indent \textbf{B.S.} in Electrical and Electronics Engineering \hfill 09/2018 - Present
+
+\section*{Experience}
+
+\textbf{Ulak Communications Inc.}, \textit{Researcher} \hfill 04/2023 - Present
+\begin{itemize}[leftmargin=1.5cm]
+\item[$\cdot$]\small{Working on sixth-generation (6G) research and development project.}
+\end{itemize}
+
+\textbf{Communication Networks Group}, \textit{Undergraduate Researcher} \hfill 09/2021 - Present
+\begin{itemize}[leftmargin=1.5cm]
+\item[$\cdot$]\small{Working on a new protocol based on the freshness of knowledge by implementing \textbf{Age of Information} (AoI) on the \textbf{AL-FEC} protocol. Responsible for the preparation of the tests and the code that will run the protocol on the devices.}
+\end{itemize}
+
+\textbf{Tübitak Bilgem Iltaren}, \textit{Candidate Researcher} \hfill 09/2022 - 12/2022
+\begin{itemize}[leftmargin=1.5cm]
+\item[$\cdot$]\small{Worked on electronic warfare systems, coding signal processing algorithms with VHDL for Xilinx FPGAs. }
+\end{itemize}
+
+\textbf{Aselsan}, \textit{Intern} \hfill 07/2022 - 08/2022
+\begin{itemize}[leftmargin=1.5cm]
+\item[$\cdot$]\small{Worked as a system engineering intern under Marine Electro-Optical System Engineering Directorate in Akyurt Facilities.}
+\end{itemize}
+
+\textbf{Communication Networks Group}, \textit{Research Intern} \hfill 07/2021 - 09/2021
+\begin{itemize}[leftmargin=1.5cm]
+\item[$\cdot$]\small{Involved in the development of novel AL-FEC protocol that tries to optimize the \textbf{Age of Information (AoI)} and setted up an \textbf{Internet of Things (IoT)} testbed for the protocol under the supervision of Prof. Elif Uysal.}
+
+\end{itemize}
+
+\section*{Research Interests}
+\begin{itemize}[leftmargin=.6cm]
+\item[]\small{Age of information, information theory and internet of things. \textbf{Currently, interested in terrestrial and non-terrestrial networks and handover mechanisms.}} 
+\end{itemize}
+
+
+
+\section*{Skills}
+
+\indent \textbf{Programming Languages:} Python, C++, MATLAB, VHDL\\
+\indent \textbf{Programs:} MATLAB, Simulink, Xilinx Vivado, QuestaSim\\
+\indent \textbf{Documentation:} MS Word, MS Excel, {\LaTeX}\\
+%\indent \textbf{Libraries:} Tensorflow, Pytorch
+
+\end{document}
